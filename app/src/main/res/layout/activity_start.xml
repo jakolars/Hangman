@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".StartActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/add"
+        android:src="@drawable/hangmanlogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:text="Start norsk spill"
+        android:onClick="onClickStart"
+        android:layout_width="327dp"
+        android:layout_height="59dp" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/norwegian"
+            android:layout_width="80pt"
+            android:layout_height="70pt"
+            android:onClick="onClickNorwegian"
+            android:src="@drawable/norway"
+            />
+        <ImageView
+            android:id="@+id/english"
+            android:layout_width="80pt"
+            android:layout_height="75pt"
+            android:onClick="onClickEnglish"
+            android:src="@drawable/uk"
+            />
+
+        </LinearLayout>
+
+    <GridView
+        android:id="@+id/language"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></GridView>
+</LinearLayout>
+

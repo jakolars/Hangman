@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hangman</string>
+    <string name="action_settings">Rules</string>
+    <string name="exit_settings">Exit</string>
+    <string name="start">Start</string>
+    <string name="title_activity_game">Hangman</string>
+    <string name="title_activity_result">Hangman</string>
+
+</resources>
